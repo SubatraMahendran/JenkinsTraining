@@ -12,6 +12,10 @@ pipeline {
                 println ("checking out code ...")
             }
         }
-        
+        stage ("build") {
+            steps {
+                println ("building  code ...")
+            }
+        }
     }
 }
